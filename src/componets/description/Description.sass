@@ -1,0 +1,47 @@
+.description-container
+  width: 100%
+  height: 41rem
+  background: #495057
+  display: flex
+  justify-content: space-around
+  align-items: center
+  padding-bottom: 4rem
+  @media screen and (max-width: 630px)
+    flex-direction: column
+    height: 140rem
+    justify-content: space-evenly
+  // padding-top: 4rem
+  // padding-left: 28rem
+  &__box
+    width: 26rem
+    height: 23rem
+    // margin-right: 9rem
+    display: flex
+    flex-direction: column
+    align-items: center
+    @media screen and (max-width: 630px)
+      width: 46rem
+
+    &__img
+      width: 9rem
+      height: 8.5rem
+      @media screen and (max-width: 630px)
+        width: 20rem
+        height: 15.5rem
+        margin-bottom: 1rem
+    &__title
+      font-family: Nunito Sans
+      font-size: 2.2rem
+      color: #DEE2E6
+      font-weight: 600
+      margin-bottom: 0.8rem
+      @media screen and (max-width: 630px)
+        font-size: 3.8rem
+    &__text
+      font-family: Nunito Sans
+      font-size: 1.8rem
+      color:  #CED4DA
+      font-weight: 600
+      text-align: center
+      @media screen and (max-width: 630px)
+        font-size: 2.8rem
